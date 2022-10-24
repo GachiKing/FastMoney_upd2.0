@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 0px;
+}
+.header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-around;
+  background-image: url(../img/Rectangle\ 1055.png);
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+.FastMoney {
+  font-size: 30px;
+  color: white;
+  font-family: "Days One", sans-serif;
+  font-weight: 100;
+}
+.perexodi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  font-weight: 700;
+}
+.a_header {
+  text-decoration: none;
+  color: white;
+}
+.sperma {
+  font-weight: 700;
+}
+.o {
+  font-size: 20px;
+  color: white;
+}
+.login__room {
+  width: 250px;
+  height: 50px;
+  background-color: #ff7b00;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: #ff7b00;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+}
+.this__card {
+  width: 320px;
+  height: 420px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 44px 44px 44px 44px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(6px);
+
+  border-radius: 15px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+.reviews {
+  display: flex;
+  justify-content: space-around;
+}
+.last_comment {
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  color: #ff7d04;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.avatarka {
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.card_name {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card_comment {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card_geo {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card_geo_text {
+  margin-left: 5px;
+}
+.card_stars {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #ffffff
+    url("https://i.pinimg.com/originals/26/2e/3a/262e3a9f491af6c30ed91e4263bd19b8.gif")
+    no-repeat center center;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #FFFFFF url('https://i.pinimg.com/originals/26/2e/3a/262e3a9f491af6c30ed91e4263bd19b8.gif') no-repeat center center;
+}
+
+.visible {
+visibility: visible;
+opacity: 1;
+transition: opacity 2s linear;
+}
+
+.hidden {
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s 2s, opacity 2s linear;
+}

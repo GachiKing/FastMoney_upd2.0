@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+  }
+  .header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    background-image: url(../img/Rectangle\ 1055.png);
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+  }
+  .a_header {
+    text-decoration: none;
+    color: white;
+  }
+  .FastMoney {
+    font-size: 30px;
+    color: white;
+    font-family: "Days One", sans-serif;
+    font-weight: 100;
+  }
+  .perexodi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sperma {
+    font-weight: 700;
+  }
+  .o {
+    font-size: 20px;
+    color: white;
+  }
+  .login__room {
+    width: 250px;
+    height: 50px;
+    background-color: #ff7b00;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: #ff7b00;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+  }
+
+.about {
+    font-family: "Rubik", sans-serif;
+    color: black;
+    margin-left: 150px;
+    margin-right: 700px;    
+}
+span {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+    
+}
+.about_company {
+    margin-top: 50px;
+}
+.about_develeport {
+    margin-top: 50px;
+}
+.img_about {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    height: 380px;
+    width: 290px;
+    overflow: hidden;
+    border: 10px solid  #ff7b00;
+    border-radius: 10px;
+}#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #FFFFFF url('https://i.pinimg.com/originals/26/2e/3a/262e3a9f491af6c30ed91e4263bd19b8.gif') no-repeat center center;
+}
+
+.visible {
+visibility: visible;
+opacity: 1;
+transition: opacity 2s linear;
+}
+
+.hidden {
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s 2s, opacity 2s linear;
+}
